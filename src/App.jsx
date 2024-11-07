@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <main>
           <Routes>
-            <Route path='/' element={<Homepage />} />
+            <Route path='/oskarshyrbod' element={<Homepage />} />
             <Route path='/product/:productId' element={<Productpage />} />
           </Routes>
         </main>
