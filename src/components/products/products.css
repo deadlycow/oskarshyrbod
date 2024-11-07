@@ -1,0 +1,21 @@
+.products-layout {
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+
+  @media (width >= 576px) {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 576px;
+    margin-inline: auto;
+  }
+
+  @media (width >= 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 768px;
+  }
+
+  @media (width >= 1280px) {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1280px;
+  }
+}

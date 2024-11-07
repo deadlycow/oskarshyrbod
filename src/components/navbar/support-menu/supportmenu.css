@@ -1,0 +1,24 @@
+.support-menu {
+  position: relative;
+  cursor: pointer;
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+.support-dropdown {
+  position: absolute;
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 2rem;
+
+  transition: max-height .3s ease;
+
+  a {
+    display: block;
+    text-wrap: nowrap;
+  }
+}
+
+.show-support {
+  max-height: 300px;
+}

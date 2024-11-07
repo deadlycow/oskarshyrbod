@@ -1,0 +1,15 @@
+.hero {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  place-content: end;
+  background-color: burlywood;
+
+  text-align: center;
+  align-items: center;
+  padding-bottom: 2rem;
+
+  h1 {
+    margin-bottom: 4rem;
+  }
+}

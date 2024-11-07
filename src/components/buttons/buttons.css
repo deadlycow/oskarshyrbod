@@ -1,0 +1,22 @@
+.btn {
+  cursor: pointer;
+}
+
+.link-btn-product {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-block: 1em;
+  border-bottom-left-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  place-self: center;
+  background-color: lightgoldenrodyellow;
+
+  &:hover {
+    background-color: rgba(110, 110, 110, 0.046);
+  }
+}
+
+.btn-rent {
+  background-color: lightgoldenrodyellow;
+  border-radius: 4px;
+}
