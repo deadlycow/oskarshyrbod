@@ -16,8 +16,7 @@ const Navbar = () => {
         <li>Logga in</li>
         <li>Registrera dig</li>
       </ul>
-
-        <ShoppingCart />
+      <ShoppingCart />
       <SupportMenu />
       <div>
         <img className='nav-img' src={hamburger} />

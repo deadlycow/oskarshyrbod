@@ -5,22 +5,25 @@ import Productpage from './pages/Productpage'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import { TestData } from './TestData'
+import { CartProvider } from './components/shoppingcart/cartprovider/CartProvider'
 
 function App() {
 
   return (
-    <TestData>
-      <BrowserRouter>
-        <Navbar />
-        <main>
-          <Routes>
-            <Route path='/oskarshyrbod' element={<Homepage />} />
-            <Route path='/product/:productId' element={<Productpage />} />
-          </Routes>
-        </main>
-        <Footer />
-      </BrowserRouter>
-    </TestData>
+    <CartProvider >
+      <TestData>
+        <BrowserRouter>
+          <Navbar />
+          <main>
+            <Routes>
+              <Route path='/oskarshyrbod' element={<Homepage />} />
+              <Route path='/oskarshyrbod/product/:productId' element={<Productpage />} />
+            </Routes>
+          </main>
+          <Footer />
+        </BrowserRouter>
+      </TestData>
+    </CartProvider>
   )
 }
 

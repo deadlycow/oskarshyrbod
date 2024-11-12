@@ -8,13 +8,13 @@ import img3 from './assets/images/wrench.jpg';
 
 
 const testProducts = [
-  { id: '0', titel: 'Sax', pic: img1, info: 'about the tool', price: 123 },
-  { id: '1', titel: 'Rak ringnyckel', pic: img2, info: 'about the tool', price: 341 },
-  { id: '2', titel: 'Svängd ringnyckel', pic: img3, info: 'about the tool', price: 12 }
+  { id: '0', titel: 'Sax', pic: img1, info: 'about the tool', price: 123, quantity: 0 },
+  { id: '1', titel: 'Rak ringnyckel', pic: img2, info: 'about the tool', price: 341, quantity: 0},
+  { id: '2', titel: 'Svängd ringnyckel', pic: img3, info: 'about the tool', price: 12, quantity: 0 }
 ];
 
 for (let i = 3; i < 10; i++) {
-  testProducts.push({ id: `${i}`, titel: 'loop object', pic: img1, info: 'random words', price: 8 });
+  testProducts.push({ id: `${i}`, titel: 'loop object', pic: img1, info: 'random words', price: 8, quantity: 0 });
 }
 
 export const TestData = ({ children }) => {
