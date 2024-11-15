@@ -15,7 +15,7 @@ const Productpage = () => {
   return (
     <div>
       <h1>Product id:{product.id}</h1>
-      <p>{product.titel}</p>
+      <p>{product.title}</p>
       <img src={product.pic} />
       <p>{product.info}</p>
       <button>Hyr</button>

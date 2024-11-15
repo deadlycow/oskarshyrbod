@@ -37,7 +37,7 @@ const ShoppingCart = () => {
           <div className="cart-item" key={index}>
             <img className='cart-img' src={item.pic} />
             <div className='item-box'>
-              <p className='item-titel'>{item.titel}</p>
+              <p className='item-titel'>{item.title}</p>
               <p className='item-remove' onClick={() => removeFromCart(item.id)}><img src={trash} /></p>
               <p className='item-price'>{item.price}kr/dag</p>
               <div className='item-add-sub'>

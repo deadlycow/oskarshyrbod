@@ -4,11 +4,13 @@ import Product from './product/Product';
 import { useProducts } from '../../TestData';
 
 const Products = () => {
-const { products } = useProducts()
+const { products, filteredProduct } = useProducts()
+
+  const displayedProduct = filteredProduct.length > 0 ? filteredProduct : products
 
   return (
     <div className='products-layout'>
-      <Product products={products} />
+      <Product products={displayedProduct} />
     </div>
   )
 }

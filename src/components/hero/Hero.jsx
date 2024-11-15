@@ -1,11 +1,12 @@
 import React from 'react'
 import './hero.css'
+import SearchBar from '../searchbar/SearchBar'
 
 const Hero = () => {
   return (
     <div className='hero'>
       <h1>Din egen slogan, loga eller bild!</h1>
-      <input type="text" placeholder='Sök..'/>
+      <SearchBar />
     </div>
   )
 }

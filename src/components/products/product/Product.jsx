@@ -14,7 +14,7 @@ const Product = ({ products }) => {
     <>
       {products.map(product => (
         <div key={product.id} className='product-card'>
-          <h3 className='product-title'>{product.titel}</h3>
+          <h3 className='product-title'>{product.title}</h3>
           <div className='product-item-img-box'>
             <img className='product-item-img' src={product.pic} />
             <span className='float-price'>{product.price} Kr/dag</span>
@@ -26,7 +26,6 @@ const Product = ({ products }) => {
           </div>
         </div>
       ))}
-
     </>
   )
 };
