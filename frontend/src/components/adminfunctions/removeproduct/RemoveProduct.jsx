@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './removeproduct.css'
+import UpdateProduct from '../updateproduct/UpdateProduct';
 
 const RemoveProduct = () => {
   const [products, setProducts] = useState([]);
@@ -39,7 +40,10 @@ const RemoveProduct = () => {
         <div className='product-item' key={product.id_product}>
           <h3>{product.title}</h3>
           <p>{product.price}</p>
-          <button onClick={() => handleDelete(product.id_product)}>Delete</button>
+          <div>
+            <UpdateProduct product={product} />
+            <button onClick={() => handleDelete(product.id_product)}>Delete</button>
+          </div>
         </div>
       ))}
     </div>

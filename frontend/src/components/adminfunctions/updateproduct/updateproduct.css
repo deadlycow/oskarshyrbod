@@ -1,0 +1,9 @@
+.input-change {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: orange;
+}
