@@ -7,6 +7,8 @@ import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import { TestData } from './TestData'
 import { CartProvider } from './components/shoppingcart/cartprovider/CartProvider'
+import './assets/theme/colors.css'
+import './assets/style/style.css'
 
 function App() {
 

@@ -1,5 +1,5 @@
 .products-layout {
-  padding: 2rem;
+  padding: var(--pad-2);
   display: grid;
   gap: 2rem;
 

@@ -6,8 +6,6 @@ const SearchBar = () => {
   const [query, setQuery] = useState('')
   const { filterProducts } = useProducts()
 
-  
-
   const handleInputChange = (e) => {
     const value = e.target.value;
     setQuery(value)

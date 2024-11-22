@@ -1,3 +1,14 @@
+.removeproduct-container {
+  @media (width >=768px) {
+    max-width: 768px;
+    margin: auto;
+  }
+
+  @media (width >=1280px) {
+    max-width: 1280px;
+  }
+}
+
 .product-item {
   display: flex;
   justify-content: space-between;

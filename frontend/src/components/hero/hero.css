@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   place-content: end;
-  background-color: burlywood;
+  background-color: var(--bg-clr-hero);
 
   text-align: center;
   align-items: center;

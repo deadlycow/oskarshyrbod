@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './addproduct.css'
 
 const AddProduct = () => {
   const [formData, setFormData] = useState({
@@ -41,7 +42,7 @@ const AddProduct = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className='form-container' onSubmit={handleSubmit}>
       <label htmlFor="title">Title</label>
       <input id='title' name='title' value={formData.title} onChange={handleChange} type="text" />
       <br />

@@ -34,7 +34,7 @@ const RemoveProduct = () => {
   }
 
   return (
-    <div>
+    <div className='removeproduct-container'>
       <h1>Product List</h1>
       {products.map(product => (
         <div className='product-item' key={product.id_product}>
